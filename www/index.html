@@ -37,6 +37,32 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
       $('.gallery a').Chocolat();
     });
   </script>
+
+
+  <!--Animating the list under the MRC research focus-->
+  <script type="text/javascript" charset="utf-8">
+  $(document).ready(function() {
+
+      var i = 0,
+      delay = 3000,
+      animate = 400;
+      function animateList(){
+      var imax = $("ul#list li").length -1;
+      $("ul#list li:eq(" + i + ")")
+      .animate({"fontSize" : "20px"}, animate)
+      .animate({"fontSize" : "20px"}, delay)
+      .animate({"fontSize" : "10px"}, animate, function(){
+
+      (i == imax) ? i=0 : i++;
+      animateList();
+      });
+
+      };
+
+      animateList();
+});
+  </script>
+
   <!--script-->
 
 </head>
@@ -74,8 +100,72 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 <div class="content">
   <!-- PUT MRC Contents here Start -->
+  <div class="services-section" id="services">
+            <div class="container">
+              <h3>Welcome to the Multimedia Research Center  (MRC)</h3>
+                <div class="services-grids">
+              <div class="col-md-6 service-leftgrid">
+                <div class="service1">
+                  <div class="left-grid1">
+                  <span ><img class="manImg" src="images/mrc/overview.jpg" style="width:70px;height:40;"></img></span> 
+                  </div>
+                  <div class="left-grid2">
+                    <h4>Overview </h4>
+                    <p align="justify">Our research centre actively conducts state-of-the-art projects in computer vision, computer graphics, image processing and perceptual factors that promote unrestricted access to education and advances in biomedical technology.
+
+Multimedia Research Centre (MRC) provides a collaborative environment for dedicated and self-movtivated students to enhance their skill sets via exchanging research experience with only only other MRC members but also researchers in other world class research groups. </p>
+
+                  </div>
+   
+                </div>
+              </div>
+                            <div class="col-md-6 service-rightgrid">
+                <div class="service1">
+                  <div class="left-grid1">
+                    <span ><img class="manImg" src="images/mrc/join.jpg" style="width:70px;height:40;"></img></span>                
+                    </div>
+                  <div class="left-grid2">
+                    <h4>Join MRC </h4>
+                    <p>Applicants to the graduate program in our Computing Science Department are always welcome, and you are invited to join the following research activities conducted in MRC. Our students carry out applied research with focus on: </br>
+                    <ul id="list">
+                  <li>Online and mobile multimedia education:</li>
+                  <li>Computer graphics </li>
+                  <li>Computer vision</li>
+                  <li>Augmented reality</li>
+                  <li>Scientific and medical data visualization</li>
+                  <li>Human factors, perceptual analysis and user studies</li>
+                  <li>Image Processing</li>
+                  </ul>
+                    </p>
+
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+              </div>
+   
   <!-- PUT MRC Contents here End -->
 </div>
+ 
+        <div class="container">
+        <div class="contact-header">
+          <h3>contact us</h3>
+          </div>
+            <div class="contact-grid">
+       
+                   
+                      <div class="address" style="width:200px; margin:0 auto;">
+                      <h4>Address</h4>
+                        <p>Computing Science Center (CSC) 2-25, Department of Computing Science</p>
+                  <p>University of Alberta, Edmonton, Alberta, Canada</p>
+                    <p>Phone:780-492-8028</p>
+    
+                        </div>
+                    
+                    <div class="clearfix"> </div>
+                        </div>
+             
+            
 <div class="footer-section">
   <div class="container">
     <div class="footer-bottom">
