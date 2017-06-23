@@ -8,6 +8,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
+ <style>
+       #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
   <title>Multimedia Research Centre | Home :: MRC</title>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
   <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
@@ -550,7 +556,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <p align="justify" style="font-size:140%;"">Phone:780-492-8028</p>
 				  							</div>
 				  							<div align="center"  class="google-map">
-               				<div id="map" style="width:400px;height:400px;background:yellow"></div>
+               				<div id="map"></div>
                			</div>
 				   						</div>
 										
@@ -581,15 +587,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 			</div>
 </body>
-<script>
-function myMap() {
-var mapOptions = {
-    center: new google.maps.LatLng(53.526881, -113.526870),
-    zoom: 10,
-    mapTypeId: google.maps.MapTypeId.HYBRID
-}
-var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-}
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByDFxlrRFrmYxZclm7ZxzlYqYMHVYn1FM&callback=myMap"></script>
+   <script>
+      function initMap() {
+        var uluru = {lat: 53.526907, lng:  -113.526988};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 16,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByDFxlrRFrmYxZclm7ZxzlYqYMHVYn1FM&callback=initMap">
+    </script>
 </html>
