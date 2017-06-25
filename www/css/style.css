@@ -252,6 +252,7 @@ span.glyphicon.glyphicon-pushpin {
 /*--//gallery--*/
 .team-grids {
   position: relative;
+    padding-bottom: 20px;
 }
 .team h3 {
   font-size: 3em;
