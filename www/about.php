@@ -1,0 +1,143 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Multimedia Research Centre | Home :: MRC</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+  <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="keywords" content="Sciencelab Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design"/>
+  <script type="application/x-javascript"> addEventListener("load", function () {
+    setTimeout(hideURLbar, 0);
+  }, false);
+  function hideURLbar() {
+    window.scrollTo(0, 1);
+  } </script>
+  <script src="js/jquery-1.8.3.min.js"></script>
+  <script src="js/modernizr.custom.97074.js"></script>
+  <!---- start-smoth-scrolling---->
+  <script type="text/javascript" src="js/move-top.js"></script>
+  <script type="text/javascript" src="js/easing.js"></script>
+  <!---End-smoth-scrolling---->
+  <!--script-->
+  <script src="js/jquery.chocolat.js"></script>
+  <link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
+  <!--light-box-files -->
+  <script type="text/javascript" charset="utf-8">
+    $(function () {
+      $('.gallery a').Chocolat();
+    });
+  </script>
+  <!--script-->
+
+</head>
+<body>
+<div class="header head1">
+  <div class="header-top">
+    <div class="container">
+      <div class="logo">
+        <a href="index.php"><img src="images/mrc/mrc_logo.png" style="height: 80px"><span
+          style="font-size: 22px;color: black"> Multimedia Research Centre</span> </a>
+      </div>
+      <div class="top-menu">
+        <span class="menu"><img src="images/nav.png" alt=""/> </span>
+        <ul>
+          <li><a href="index.php" class="scroll">Home</a></li>
+          <li><a href="about.php" class="active scroll">About MRC</a></li>
+          <li><a href="people.php" class="scroll">People</a></li>
+          <li><a href="projects.php" class="scroll">Projects</a></li>
+          <li><a href="publications.php" class="scroll">Publications</a></li>
+          <li><a href="partners.php" class="scroll">Partners</a></li>
+<!--          <li><a href="events.php" class="scroll">Events</a></li>-->
+        </ul>
+      </div>
+      <!--script-nav-->
+      <script>
+        $("span.menu").click(function () {
+          $(".top-menu ul").slideToggle("slow", function () {
+          });
+        });
+      </script>
+
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</div>
+<!--single-->
+<div class="single">
+  <div class="container">
+    <h2>About MRC</h2>
+    <div class="top-single">
+      <h4>“Research and education flourish when beautiful minds gather and when the inspiration strikes.”
+      </h4>
+      <p class="eget">With the support of our sponsors and collaborators, the Multimedia Research Centre is able to
+        conduct state-of-the-art projects that help students and researchers prepare for their obligations to society.
+        Based in the Computing Science Department at the University of Alberta, MRC’s mission statement aligns with that
+        of the University – dare to discover and dare to deliver. We promote research and education without borders.
+        Moreover, <b>we aim to deliver research and education anywhere, at any time, for anyone.</b>
+      </p>
+      <p class="eget">Since its establishment in 2006, MRC has trained numerous undergraduates, graduates, researchers
+        and scholars, who are now having successful careers either in academia or industry. Our research in computer
+        vision, computer graphics, image processing and perceptual factors is targeted towards the applications of
+        biomedicine and education.</p>
+      <p class="eget">In addition to collaborating with other departments and faculties in the University, MRC is also
+        closely associated with companies in San Jose and other research groups internationally, which include
+        ParisTech, INSA Lyon and Telecom Lille in France. Visiting scholars, e.g. from China, Mexico and Brazil, funded
+        by foreign governments and Canadian funding agencies constitute an extended family of MRC.</p>
+      <p><b>Also, visit the MSc with Specialization in <a href="http://mmgrad.org"><u>Multimedia Program
+        website.</u></a></b></p>
+      <br>
+      <table width="100%" border="0" cellpadding="5">
+        <tbody><tr>
+          <td align="center"><img src="images/mrc/about/photo_embs_bbq_thumb.jpg" width="350" height="262"><br>IEEE Northern Canada Section BBQ June 2009</td>
+          <td width="50%" align="center"><img src="images/mrc/about/photo_gangconvocation_thumb.jpg" width="350" height="262"><br>MRC Alumni - Dr. Gang Wu 2009 June Convocation</td>
+        </tr>
+        <tr>
+          <td align="center"><img src="images/mrc/about/photo_icore2008_02.jpg" width="350" height="262"><br>iCORE Summit 2008 at Banff, Alberta, Canada</td>
+          <td width="50%" align="center"><img src="images/mrc/about/photo_icore2008_01.jpg" width="350" height="262"><br>iCORE Summit 2008 at Banff, Alberta, Canada</td>
+        </tr>
+        <tr>
+          <td align="center"><img src="images/mrc/about/photo_hallowen07 005.jpg" width="350" height="262"><br>Multimedia Research Centre - Halloween 2007</td>
+          <td width="50%" align="center"><img src="images/mrc/about/photo_crome_members.jpg" width="350" height="262"><br>Multimedia Research Centre - Team members and interns (2007)</td>
+
+        </tr>
+
+        </tbody></table>
+      <p align="center"><b><u><a href="about_before2010.php">Before 2010</a></u></b></p>
+    </div>
+  </div>
+</div>
+<!--footer-->
+<div class="footer-section">
+  <div class="container">
+    <div class="footer-bottom">
+      <p>Copyright &copy; 2017 <span>Multimedia Research Centre</span> All rights reserved | Design by <a
+        href="http://w3layouts.com">W3layouts</a></p>
+    </div>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        /*
+         var defaults = {
+         containerID: 'toTop', // fading element id
+         containerHoverID: 'toTopHover', // fading element hover id
+         scrollSpeed: 1200,
+         easingType: 'linear'
+         };
+         */
+
+        $().UItoTop({easingType: 'easeOutQuart'});
+
+      });
+    </script>
+    <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+  </div>
+</div>
+</body>
+</html>

@@ -2,3 +2,15 @@
 .white-font {
     color: white;
 }
+.container-publication{
+
+}
+.container-publication a {
+    color: rgb(64, 154, 254);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.container-publication li {
+    padding-bottom: 8px;
+}
