@@ -55,7 +55,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <li><a href="../projects.php" class="active scroll">Projects</a></li>
                     <li><a href="../publications.php" class="scroll">Publications</a></li>
                     <li><a href="../partners.php" class="scroll">Partners</a></li>
-                    <li><a href="../events.php" class="scroll">Events</a></li>
+<!--                    <li><a href="../events.php" class="scroll">Events</a></li>-->
                 </ul>
             </div>
             <!--script-nav-->
@@ -73,7 +73,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--single-->
 <div class="single">
     <div class="container">
-        <h2>Sensor-Based Cloud Computing Interface (CCI) with Multi-Sensor Motion Fusion
+        <h2>Early Diagnosis Of Parkinson’s Disease Using MRI Images
         </h2>
         <h4 style="text-align: center">Sara Soltaninejad</h4>
         <div class="top-single">

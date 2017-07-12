@@ -87,7 +87,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     objects in a scene.</p>
             </div>
             <div class="col-md-8 welcome-img">
-                <a href="sub_projects/sub_p1.php" class="mask"><img src="images/mrc/projects/sub_p1/image2.png"
+                <a href="sub_projects/sub_p1.php" class="mask"><img src="images/mrc/projects/sub_p1/SUBHAYAN_Project.png"
                                                                     alt="image"
                                                                     class="img-responsive zoom-img"></a>
             </div>

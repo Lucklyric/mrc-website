@@ -55,7 +55,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
           <li><a href="../projects.php" class="active scroll">Projects</a></li>
           <li><a href="../publications.php" class="scroll">Publications</a></li>
           <li><a href="../partners.php" class="scroll">Partners</a></li>
-          <li><a href="../events.php" class="scroll">Events</a></li>
+<!--          <li><a href="../events.php" class="scroll">Events</a></li>-->
         </ul>
       </div>
       <!--script-nav-->

@@ -178,8 +178,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             unrestricted
                             access to education and advances in biomedical technology.
                             Multimedia Research Centre (MRC) provides a collaborative environment for dedicated and
-                            self-movtivated
-                            students to enhance their skill sets via exchanging research experience with only only
+                            self-motivated
+                            students to enhance their skill sets via exchanging research experience with only
                             other
                             MRC members
                             but also researchers in other world class research groups. </p>
