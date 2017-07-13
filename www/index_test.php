@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <?php
 /* Pre-set parameters */
-$relative_path = "";
+$relate_path = "";
 $page_name = "Home";
 ?>
 <!DOCTYPE HTML>
