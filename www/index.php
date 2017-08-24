@@ -9,6 +9,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 /* Pre-set parameters */
 $relative_path = "";
 $page_name = "Home";
+$rootpath = 'images/mrc/events/labgeneral';
+$fileinfos = new RecursiveIteratorIterator(
+    new RecursiveDirectoryIterator($rootpath)
+);
+$all_imgs = array();
+foreach ($fileinfos as $pathname => $fileinfo) {
+    if (!$fileinfo->isFile()) continue;
+    array_push($all_imgs, $pathname);
+}
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -31,6 +40,11 @@ $page_name = "Home";
     <script type="text/javascript" src="js/easing.js"></script>
 
     <!---End-smoth-scrolling---->
+
+    <link type="text/css" rel="stylesheet" href="css/lightslider.css"/>
+    <script src="js/lightslider.js"></script>
+
+
     <!--script-->
     <script src="js/jquery.chocolat.js"></script>
     <link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
@@ -64,9 +78,22 @@ $page_name = "Home";
             };
 
             animateList();
+
+
         });
     </script>
-
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#lightSlider').lightSlider({
+                autoWidth: true,
+                loop: true,
+                auto: true,
+                onSliderLoad: function () {
+                    $('#autoWidth').removeClass('cS-hidden');
+                }
+            });
+        });
+    </script>
     <!--script-->
 
 </head>
@@ -132,7 +159,16 @@ $page_name = "Home";
 
 
     <div class="content">
-        <img src="images/mrc/main/campus-aerial.jpg" style="width:100%;height: 512px;object-fit: cover">
+        <ul id="lightSlider">
+            <?php
+            foreach ($all_imgs as $img_path) {
+                echo '<li data-thumb="' . $img_path . '">
+                <img style="height:400px; object-fit:cover" src="' . $img_path . '"/>
+            </li>';
+            }
+            ?>
+        </ul>
+        <!--        <img src="images/mrc/main/campus-aerial.jpg" style="width:100%;height: 512px;object-fit: cover">-->
         <!-- PUT MRC Contents here Start -->
         <div class="services-section" id="services">
             <div class="container">
