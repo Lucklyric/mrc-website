@@ -22,18 +22,19 @@ $page_name = "projects";
         <div class="blog">
             <div class="col-md-4 blog-text">
                 <h4><a href="sub_projects/sub_p1.php">Highlighting objects of interest in an image by integrating
-                    saliency and
-                    depth
-                </a></h4>
+                        saliency and
+                        depth
+                    </a></h4>
                 <p style="color: #5e5e5e ">Stereo images have been captured primarily for 3D reconstruction in the past.
                     However, the depth information acquired from stereo can also be used along with saliency to
                     highlight certain
                     objects in a scene.</p>
             </div>
             <div class="col-md-8 welcome-img">
-                <a href="sub_projects/sub_p1.php" class="mask"><img src="images/mrc/projects/sub_p1/SUBHAYAN_Project.png"
-                                                                    alt="image"
-                                                                    class="img-responsive zoom-img"></a>
+                <a href="sub_projects/sub_p1.php" class="mask"><img
+                            src="images/mrc/projects/sub_p1/SUBHAYAN_Project.png"
+                            alt="image"
+                            class="img-responsive zoom-img"></a>
             </div>
             <div class="clearfix"></div>
         </div>
@@ -41,14 +42,17 @@ $page_name = "projects";
         <br>
         <div class="blog">
             <div class="col-md-4 blog-text two">
-                <h4><a href="sub_projects/navaneeth_p1.php">HDR Image Quality Assessment</a></h4>
-                <p style="color: #5e5e5e">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod
-                    tempor
-                    incididunt ut labore et
-                    dolore magna aliqua.</p>
+                <h4><a href="sub_projects/navaneeth_p1.php">Learning Influence Of Content On Image Quality
+                    </a></h4>
+                <p style="color: #5e5e5e">In this project we derive a computational strategy to enhance the performance
+                    of Image Quality Metrics (IQM) by using content specific features of an image. We do this by
+                    creating Visual Error Importance (VEI) map that is applied to the error maps computed by the IQM. A
+                    global optimization can be used to compute the VEI map that is optimal for any given IQM from a set
+                    of simple image features..</p>
             </div>
             <div class="col-md-8 blog-img two">
-                <a href="sub_projects/navaneeth_p1.php" class="mask"><img src="images/b3.jpg" alt="image"
+                <a href="sub_projects/navaneeth_p1.php" class="mask"><img src="images/mrc/projects/nav_p1/image1.png"
+                                                                          alt="image"
                                                                           class="img-responsive zoom-img"></a>
             </div>
             <div class="clearfix"></div>
@@ -58,9 +62,9 @@ $page_name = "projects";
         <div class="blog">
             <div class="col-md-4 blog-text">
                 <h4><a href="sub_projects/alvin_p1.php">Sensor-Based Cloud Computing Interface (CCI) with Multi-Sensor
-                    Motion
-                    Fusion
-                </a></h4>
+                        Motion
+                        Fusion
+                    </a></h4>
                 <p style="color: #5e5e5e">In this study, we use data captured by smart sensors to deploy a Cloud
                     Computing Interface in the Cloud
                     infrastructure (CCI). To achieve the benefit from processing, analyzing, evaluating and storing fine
@@ -69,8 +73,8 @@ $page_name = "projects";
             </div>
             <div class="col-md-8 welcome-img">
                 <a href="sub_projects/alvin_p1.php" class="mask"><img
-                        src="images/mrc/projects/alvin_p1/F3-software-screenshort.png" alt="image"
-                        class="img-responsive zoom-img"></a>
+                            src="images/mrc/projects/alvin_p1/F3-software-screenshort.png" alt="image"
+                            class="img-responsive zoom-img"></a>
             </div>
             <div class="clearfix"></div>
         </div>
@@ -79,7 +83,7 @@ $page_name = "projects";
         <div class="blog">
             <div class="col-md-4 blog-text two">
                 <h4><a href="sub_projects/sara_p1.php">Early Diagnosis of Parkinson’s disease using MRI images</a></h4>
-                 <p style="color: #5e5e5e">The research goal is to develop treatments that can slow or halt the
+                <p style="color: #5e5e5e">The research goal is to develop treatments that can slow or halt the
                     progression of the disease before it significantly affects quality of life. As a computing science
                     research, my plan is to facilitate early diagnosis.</p>
             </div>
@@ -90,17 +94,17 @@ $page_name = "projects";
             <div class="clearfix"></div>
         </div>
         <!--<div class="blog">-->
-            <!--<div class="col-md-4 blog-text">-->
-                <!--<h4><a href="sub_projects/alvin_p1.html">Early Diagnosis of Parkinson’s disease using MRI images-->
-                <!--</a></h4>-->
+        <!--<div class="col-md-4 blog-text">-->
+        <!--<h4><a href="sub_projects/alvin_p1.html">Early Diagnosis of Parkinson’s disease using MRI images-->
+        <!--</a></h4>-->
 
-            <!--</div>-->
-            <!--<div class="col-md-8 welcome-img">-->
-                <!--<a href="sub_projects/alvin_p1.html" class="mask"><img-->
-                        <!--src="images/mrc/projects/alvin_p1/F3-software-screenshort.png" alt="image"-->
-                        <!--class="img-responsive zoom-img"></a>-->
-            <!--</div>-->
-            <!--<div class="clearfix"></div>-->
+        <!--</div>-->
+        <!--<div class="col-md-8 welcome-img">-->
+        <!--<a href="sub_projects/alvin_p1.html" class="mask"><img-->
+        <!--src="images/mrc/projects/alvin_p1/F3-software-screenshort.png" alt="image"-->
+        <!--class="img-responsive zoom-img"></a>-->
+        <!--</div>-->
+        <!--<div class="clearfix"></div>-->
         <!--</div>-->
     </div>
 </div>
@@ -109,7 +113,7 @@ $page_name = "projects";
     <div class="container">
         <div class="footer-bottom">
             <p>Copyright &copy; 2017 <span>Multimedia Research Centre</span> All rights reserved | Design by <a
-                    href="http://w3layouts.com">W3layouts</a></p>
+                        href="http://w3layouts.com">W3layouts</a></p>
         </div>
         <script type="text/javascript">
             $(document).ready(function () {
