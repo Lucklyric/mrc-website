@@ -21,7 +21,7 @@ $page_name = "Publications";
         <h2>Publications</h2>
         <p><strong><a href="publications.php">Journals</a></strong> | <strong><a
                 href="publications_books_and_patents.php">Books and
-            Patents</a></strong> | <strong>2010-Current</strong> | <strong><a
+                    Patents</a></strong> | <strong><u>2010-Current</u></strong> | <strong><a
                 href="publications_before_2010.php">Before
             2010</a></strong></p>
         <br>

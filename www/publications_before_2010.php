@@ -6,7 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <?php
 /* Pre-set parameters */
-$relative_path= "";
+$relative_path = "";
 $page_name = "Publications";
 ?>
 <!DOCTYPE HTML>
@@ -20,10 +20,11 @@ $page_name = "Publications";
     <div class="container container-publication" style="max-width: 650px">
         <h2>Publications</h2>
         <p><strong><a href="publications.php">Journals</a></strong> | <strong><a
-                href="publications_books_and_patents.php">Books and
-            Patents</a></strong> | <strong><a href="publications_2010_current.php">2010-Current</a></strong> | <strong>
-            Before
-            2010</strong></p>
+                        href="publications_books_and_patents.php">Books and
+                    Patents</a></strong> | <strong><a href="publications_2010_current.php">2010-Current</a></strong> |
+            <strong><u>
+                    Before
+                    2010</u></strong></p>
         <br>
         <p><strong>Conferences</strong></p>
         <ul>
@@ -152,17 +153,17 @@ $page_name = "Publications";
                 2006, 10 LNCS pages.
             </li>
             <li>T. Wang and A. Basu, “Iterative Estimation of 3D Transformations for Object Alignment,”, <em>International
-                Symposium on Visual Computing, Lake Tahoe, Nevada</em>, 2006, 10 LNCS pages.
+                    Symposium on Visual Computing, Lake Tahoe, Nevada</em>, 2006, 10 LNCS pages.
             </li>
             <li>M. Singh, A. Basu and M.K. Mandal, “Temporal Alignment of Time Varying MRI Datasets for High
                 Resolution Medical Visualization,”, <em>International Symposium on Visual Computing, Lake Tahoe,
                     Nevada</em>, 2006, 10 LNCS pages.
             </li>
             <li>I Cheng, L Ying and A Basu, “Packet Loss Modeling for Perceptually Optimized 3D Transmission,” <em>IEEE
-                International Conference on Multimedia and Expo, 4 pages, Toronto</em>, July 2006.
+                    International Conference on Multimedia and Expo, 4 pages, Toronto</em>, July 2006.
             </li>
             <li>M Singh, R Thompson, A Basu, J Rieger and MK Mandal, “MRI video interpolation,” <em>IEEE
-                International Conference on Image Processing, 4 pages, Atlanta, USA</em>, October 2006.
+                    International Conference on Image Processing, 4 pages, Atlanta, USA</em>, October 2006.
             </li>
             <li>T. Wang and A. Basu, &nbsp;“Automatic estimation of 3D transformations using skeletons for object
                 alignment,”, <em>IAPR/IEEE International Conference on Pattern Recognition, 4 pages, Hong Kong</em>,
@@ -221,7 +222,7 @@ $page_name = "Publications";
                     Processing</em> organized by G. Cortelazzo, Italy, 2005, 4 proceedings pages
             </li>
             <li>I. Cheng and A. Basu, “Perceptually optimized 3D transmission over wireless networks,” <em>SIGGRAPH,
-                Web Program</em>, Technical Paper, 9 proceedings pages, Los Angeles, USA, August 2005
+                    Web Program</em>, Technical Paper, 9 proceedings pages, Los Angeles, USA, August 2005
             </li>
             <li>M. Singh, M. Mandal and A. Basu, “Visual gesture recognition for ground air traffic control using
                 the radon transform,” <em>IEEE IROS Conference</em>, 6 proceedings pages, Edmonton, Canada, 2005
@@ -255,7 +256,7 @@ $page_name = "Publications";
             </li>
 
             <li>I. Cheng and A. Basu, “3D Online retrieval based on perceptual quality,” <em>SIGGRAPH Web Graphics
-                Presentation</em>, Los Angeles, USA, July, 2004
+                    Presentation</em>, Los Angeles, USA, July, 2004
             </li>
 
             <li>I. Cheng and P. Boulanger, “Scale-Space 3D TexMesh Simplification,” IEEE Int. Conference on
@@ -270,20 +271,20 @@ $page_name = "Publications";
                 <em>Eurographics</em>, Granada, Spain, September 2003, 4 proceedings pages
             </li>
             <li>Y. Pan, I. Cheng and A. Basu, “Perceptual Quality Metric for Qualitative 3D Scene Evaluation,” <em>IEEE
-                International Conference on Image Processing</em>, Barcelona, 2003, (4 proceedings pages)
+                    International Conference on Image Processing</em>, Barcelona, 2003, (4 proceedings pages)
             </li>
             <li>M. Pi, A. Basu and M. Mandal, “A new decoding algorithm based on range block mean and contrast
                 scaling,” <em>IEEE International Conference on Image Processing</em>, Barcelona, 2003, (4
                 proceedings pages)
             </li>
             <li>I. Cheng, M. Bates and A. Basu, “Collaborative Online 3D Editing,” <em>SIGGRAPH Web Graphics
-                Presentation</em>, San Diego, USA, July, 2003
+                    Presentation</em>, San Diego, USA, July, 2003
             </li>
             <li>M. Pi, M. Mandal and A. Basu, “Image retrieval based on 2-D histogram of fractal parameters,” <em>IEEE
-                International Conference on Multimedia</em>, Baltimore, USA, July, 2003, (4 proceedings pages)
+                    International Conference on Multimedia</em>, Baltimore, USA, July, 2003, (4 proceedings pages)
             </li>
             <li>“Recognizing facial expressions using active textures with wrinkles,” (L.Yin and A. Basu), <em>IEEE
-                International Conference on Multimedia</em>, Baltimore, USA, July, 2003, (4 proceedings pages)
+                    International Conference on Multimedia</em>, Baltimore, USA, July, 2003, (4 proceedings pages)
             </li>
             <li>A. Basu, I. Cheng and Y.Yu<em>, </em>“Multi-server optimal bandwidth monitoring for QoS based
                 retrieval,” <em>IEEE International Symposium of Circuits and Systems</em>, Bangkok, May, 2003, 4
@@ -294,21 +295,21 @@ $page_name = "Publications";
                 2002, Quebec City, (4 conference pages)
             </li>
             <li>A. Basu, I. Cheng and Y. Pan, “Foveated online 3D visualization,” <em>IAPR/IEEE</em> <em>International
-                Conference on Pattern Recognition</em>, August 2002, Quebec City, (4 conference pages)
+                    Conference on Pattern Recognition</em>, August 2002, Quebec City, (4 conference pages)
             </li>
             <li>M. Fiala and A. Basu, “Panoramic stereo reconstruction for non-SVP optics,” <em>Proceedings
-                IAPR/IEEE</em> <em>International Conference on Pattern Recognition</em>, August 2002, Quebec City,
+                    IAPR/IEEE</em> <em>International Conference on Pattern Recognition</em>, August 2002, Quebec City,
                 (4 conference pages)
             </li>
             <li>Y. Yu, A. Basu and I. Cheng, “Optimal adaptive bandwidth monitoring for QoS based retrieval,” <em>IEEE
-                International Symposium of Circuits and Systems</em>, Scottsdale, USA, May, 2002, 4 pages
+                    International Symposium of Circuits and Systems</em>, Scottsdale, USA, May, 2002, 4 pages
             </li>
             <li>A. Basu, I. Cheng, A. Mistri and D. Wolford, “Scalable Visualization of Super High Resolution 3D
                 Images for Museum Archiving,” <em>SIGGRAPH Web Graphics Presentation</em>, San Antonio, USA, July
                 2002
             </li>
             <li>I. Cheng and A. Basu, “Super High Resolution 3D Imaging and Efficient Visualization,” <em>IEEE 3Dpvt
-                Conference</em>, Padova, Italy, 2002, 5 conference pages
+                    Conference</em>, Padova, Italy, 2002, 5 conference pages
             </li>
             <li>L. Yin, J. Chang and A. Basu, “Synthesis-based scalable image enhancement for digital radiography,”
                 <em>IEEE International Conference on Image Processing</em>, 2002, Rochester, NY, USA, (4 conference
@@ -319,10 +320,10 @@ $page_name = "Publications";
                 (4 conference pages)
             </li>
             <li>M. Fiala and A. Basu, “Robot navigation using panoramic landmark tracking,” <em>Proceedings Vision
-                Interface</em>, May 2002, Banff, (8 conference pages)
+                    Interface</em>, May 2002, Banff, (8 conference pages)
             </li>
             <li>A. Basu and I. Cheng, “QoS based video delivery with foveation,” <em>IEEE International Conference
-                on Image Processing</em>, Greece, October 2001, (4 conference pages)
+                    on Image Processing</em>, Greece, October 2001, (4 conference pages)
             </li>
             <li>I. Cheng, A. Basu, Y. Zhang and S. Tripathi, “QoS Specification and Adaptive Bandwidth Monitoring
                 for Multimedia delivery,” <em>IEEE EUROCON</em>, Slovakia, June, 2001, 4 conference pages
@@ -335,17 +336,17 @@ $page_name = "Publications";
                     Processing</em>, June 2000, Turkey, (4 conference pages)
             </li>
             <li>A. Basu and H. Sahabi, “Analysis of cylindrical stereo imaging”, <em>IAPR/IEEE International
-                Conference on Pattern Recognition</em>, August 2000, Spain, (4 pages)
+                    Conference on Pattern Recognition</em>, August 2000, Spain, (4 pages)
             </li>
             <li>L. Yin and A. Basu, “Partial update of active textures for efficient expression synthesis in
                 model-based coding”, <em>IEEE International Conference on Multimedia</em>, July 2000, NY, USA, (4
                 conference pages)
             </li>
             <li>J. Baldwin and A. Basu, “3D estimation using panoramic stereo”, <em>IAPR/IEEE International
-                Conference on Pattern Recognition</em>, August 2000, Spain, (4 conference pages)
+                    Conference on Pattern Recognition</em>, August 2000, Spain, (4 conference pages)
             </li>
             <li>L. Yin and A. Basu, “Realistic animation using extended adaptive mesh for model based coding”, <em>Energy
-                Minimization Methods in Computer Vision and Pattern Recognition</em>, July 1999, UK, 269-284
+                    Minimization Methods in Computer Vision and Pattern Recognition</em>, July 1999, UK, 269-284
             </li>
             <li>R. Shaffer, A. Basu and J. Harms, “Improving perceptual quality and network performance for
                 transmission of H.263 video over ATM,” <em>IEEE International Conference on Electronics, Circuits
@@ -415,7 +416,7 @@ $page_name = "Publications";
     <div class="container">
         <div class="footer-bottom">
             <p>Copyright &copy; 2017 <span>Multimedia Research Centre</span> All rights reserved | Design by <a
-                    href="http://w3layouts.com">W3layouts</a></p>
+                        href="http://w3layouts.com">W3layouts</a></p>
         </div>
         <script type="text/javascript">
             $(document).ready(function () {

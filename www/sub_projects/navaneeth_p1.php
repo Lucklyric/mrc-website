@@ -6,7 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <?php
 /* Pre-set parameters */
-$relative_path= "../";
+$relative_path = "../";
 $page_name = "projects";
 ?>
 <!DOCTYPE HTML>
@@ -17,14 +17,32 @@ $page_name = "projects";
 <!--single-->
 <div class="single">
     <div class="container">
-        <h2>HDR Image Quality Assessment
+        <h2>Learning Influence of Content on Image Quality
         </h2>
         <h4 style="text-align: center">Navaneeth Kamballur Kottayil</h4>
         <div class="top-single">
             <p class="eget">
-                NEED UPDATE
+                In this project we derive a computational strategy to enhance the performance of Image Quality Metrics
+                (IQM) by using content specific features of an image. We do this by creating Visual Error Importance
+                (VEI) map that is applied to the error maps computed by the IQM. A global optimization can be used to
+                compute the VEI map that is optimal for any given IQM from a set of simple image features.
             </p>
-
+            <p style="text-align: center"><img src="../images/mrc/projects/nav_p1/image1.png"></p>
+            <p class="eget">
+                Error importance maps if we artificially force the algorithm to simulate a scene content is shown below.
+            </p>
+            <p style="text-align: center"><img src="../images/mrc/projects/nav_p1/image2.png"></p>
+            <p class="eget">
+                Note how error importance change; in outdoor natural scenes, VEI emphasizes errors in smooth, well lit
+                areas and lower to medium complexity regions, with a lower priority to salient objects. Such areas are
+                more important if natural scenes are being displayed. On the other hand, for outdoor scenes with
+                man-made structures, we see that VEI assigns more importance, in term of image quality, to regions with
+                higher details, and less importance to smooth regions. For indoor scenes, we observe a larger importance
+                given to smoother regions.
+            </p>
+            <p class="eget">
+                Our results show that VEI maps produce improvement in performance of IQA in all the cases we tested.
+            </p>
         </div>
     </div>
 </div>
@@ -33,7 +51,7 @@ $page_name = "projects";
     <div class="container">
         <div class="footer-bottom">
             <p>Copyright &copy; 2017 <span>Multimedia Research Centre</span> All rights reserved | Design by <a
-                    href="http://w3layouts.com">W3layouts</a></p>
+                        href="http://w3layouts.com">W3layouts</a></p>
         </div>
         <script type="text/javascript">
             $(document).ready(function () {

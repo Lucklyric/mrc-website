@@ -9,9 +9,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     max-width: 1200px;
     margin: 0 auto;
 }
-.body-container tr{
+
+.body-container tr {
     height: 86px;
 }
+
+.top-single img {
+    max-width: 800px;
+}
+
 
 @font-face {
     font-family: 'Play-Regular';

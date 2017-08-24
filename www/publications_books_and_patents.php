@@ -18,9 +18,9 @@ $page_name = "Publications";
 <div class="single">
     <div class="container container-publication" style="max-width: 650px">
         <h2>Publications</h2>
-        <p><strong><a href="publications.php">Journals</a></strong> | <strong>
+        <p><strong><a href="publications.php">Journals</a></strong> | <strong><u>
             Books and
-            Patents</strong> | <strong><a href="publications_2010_current.php">2010-Current</a></strong> | <strong><a
+                    Patents</u></strong> | <strong><a href="publications_2010_current.php">2010-Current</a></strong> | <strong><a
                 href="publications_before_2010.php">Before
             2010</a></strong></p>
         <br>
