@@ -45,7 +45,6 @@ $page_name = "people";
             <br>
             <h4>Students:</h4>
             <div class="team-info" style="align-content: center">
-
                 <div class="col-md-3 team-grids">
                     <a href="https://www.linkedin.com/in/navaneethkamballurkottayil">
                         <img class="img-responsive" src="images/mrc/people/Navaneeth.jpg" alt="">
@@ -65,15 +64,6 @@ $page_name = "people";
                     </a>
                 </div>
                 <div class="col-md-3 team-grids">
-                    <a href="https://webdocs.cs.ualberta.ca/~xinyao1/">
-                        <img class="img-responsive" src="images/mrc/people/alvin.png" alt="">
-                        <div class="captn">
-                            <h4 style="color: white">Alvin(Xinyao) Sun</h4>
-                            <p>PhD Student</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3 team-grids">
                     <a href="https://webdocs.cs.ualberta.ca/~khalifab/">
                         <img class="img-responsive" src="images/mrc/people/housam.jpg" alt="">
                         <div class="captn">
@@ -82,7 +72,6 @@ $page_name = "people";
                         </div>
                     </a>
                 </div>
-                <br>
                 <div class="col-md-3 team-grids">
                     <a href="https://ca.linkedin.com/in/sarah-soltaninejad-33762349">
                         <img class="img-responsive" src="images/mrc/people/sara.png" alt="">
@@ -92,6 +81,25 @@ $page_name = "people";
                         </div>
                     </a>
                 </div>
+                <div class="col-md-3 team-grids">
+                    <a href="">
+                        <img class="img-responsive" src="images/mrc/people/MehdiFaraji.jpg" alt="">
+                        <div class="captn">
+                            <h4 style="color: white">Mehdi Faraji</h4>
+                            <p>PhD Student</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 team-grids">
+                    <a href="https://webdocs.cs.ualberta.ca/~xinyao1/">
+                        <img class="img-responsive" src="images/mrc/people/alvin.png" alt="">
+                        <div class="captn">
+                            <h4 style="color: white">Alvin(Xinyao) Sun</h4>
+                            <p>PhD Student</p>
+                        </div>
+                    </a>
+                </div>
+                <br>
                 <!--<div class="col-md-3 team-grids">-->
                 <!--<a href="#">-->
                 <!--<img class="img-responsive" src="images/t3.jpg" alt="">-->
